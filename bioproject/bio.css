@@ -1,0 +1,114 @@
+h1 {
+  color: : orange;
+  text-align: center;
+  line-height: 500px;
+}
+h1 {
+	font-family: 'Goldman', cursive;
+}
+body {
+  background-color: rgb(71,71,71);
+}
+h5 {
+	font-family: 'Indie Flower', cursive;
+	color: rgb(132,74,54);
+	font-size: 30px;
+}
+h6 {
+	font-family: 'Bungee Shade', cursive;
+	color:yellow;
+	font-size: 70px;
+}
+
+        
+
+}
+h3{}
+
+	.blink_me {
+  animation: blinker 1s linear infinite;
+}
+	
+}
+div.a {
+	font-size: 50px;
+}
+.gothic{
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 40px;
+	color: red;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+.anton{
+	font-family: 'Anton', sans-serif;
+	font-size: 40px;
+	color: blue;
+	text-align: center;
+}
+.oi{
+	font-family: 'Oi', sans-serif;
+	font-size: 30px;
+	color: rgb(223,255,93);
+}
+h4{
+	font-family: 'Ruslan Display', cursive;
+	font-size: 200px;
+	color:rgb(255,216,0);
+	animation: .8s shake infinite alternate;
+}
+@keyframes shake {
+	0%{
+		transform: skewX(-15deg);
+
+	}
+	5%{
+		transform: skewX(15deg);
+	}
+	10%{
+		transform: skewX(-15deg);
+		
+	}
+	15%{
+		transform: skewX(15deg);
+	}
+	20%{
+		transform: skewX(0deg);
+		
+	}
+	100%{
+		transform: skewX(-15deg);
+}
+}
+.fasterone{
+	font-family: 'Faster One', cursive;
+	font-size: 50px;
+}
+h2 {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 100px;
+  color: red;
+  text-align: center;
+  line-height: 500px;
+   -webkit-animation:colorchange 5s
+   infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: black;
+      100% {
+      	color: red;
+      }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
